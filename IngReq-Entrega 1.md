@@ -7,8 +7,14 @@
 - [Vicente Tapia]
  
 ## Proyecto
-[Nombre del proyecto y una descripción breve, 3 a 5 líneas]
- 
+
+**Sistema de Reservas de Transporte Hacia Conncietos**
+
+Aplicación web orientada a la reserva de asientos en servicios de transporte.
+Permite a los pasajeros registrarse, consultar fechas disponibles y seleccionar sus asientos.
+Los usuarios pueden gestionar sus datos personales y consultar sus reservas realizadas.
+El proyecto busca ofrecer una experiencia simple, intuitiva y funcional para los pasajeros.
+
 ## Índice de documentos
 1. [Proceso AS-IS](./01-proceso-as-is.md)
 2. [Rediseño y TO-BE](./02-rediseno-to-be.md)
