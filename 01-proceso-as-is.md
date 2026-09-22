@@ -17,9 +17,8 @@ Gestionar la inscripción de los clientes a los viajes de conciertos, informando
  
 Archivo fuente: [`./diagramas/as-is.bpmn`](./diagramas/as-is.bpmn)
  
-Nota: distingan tareas de usuario, de servicio y manuales con el marcador correspondiente.
  
 ## Problemas identificados
-- Perdida de tiempo y de potenciales clientes al tener que responder respiinder mensajes cuando no hay cupos disponibles.
+- Perdida de tiempo al tener que responder mensajes cuando no hay cupos disponibles.
 - Carencia de un registro automatizado, lo que los obliga a depender de libretas manuales para llevar el control de los cupos disponibles de cada concierto.
 - Riesgo de inasistencia, dado que no exigen abono previo, dejando el cobro y la verificación de pagos para el mismo día del viaje.
