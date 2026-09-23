@@ -4,7 +4,7 @@
 | Participante | Objetivo | Problema | Mejora deseada |
 |----------------|----------|----------|-----------------|
 | Cliente/Pasajero | Reservar un asiento rápido y asegurar su viaje al concierto. | Debe esperar respuesta manual para saber si queda cupo y pagar presencial el día del viaje. | Poder ver los cupos, reservar de forma autónoma y usar pago rápido en línea. |
-| Administrador | Crear viajes, llenarlos sin sobrepasar los cupos limitados y asegurar el pago. | Perdidad de tiempo respondiendo mensajes cuando ta no hay cupos y anota en libretas con riesgo de error o inasistencia. | Sistema para crear el viaje (cartelera), que maneje los cupos de forma automatizada y genere planillas de pasajeros, ademas de bloquear reservas si se llena la capacidad. |
+| Administrador | Crear viajes, llenarlos sin sobrepasar los cupos limitados y asegurar el pago. | Perdida de tiempo respondiendo mensajes cuando ya no hay cupos y anota en libretas con riesgo de error o inasistencia. | Sistema para crear el viaje (cartelera), que maneje los cupos de forma automatizada y genere planillas de pasajeros, ademas de bloquear reservas si se llena la capacidad. |
  
 ## Iniciativas de rediseño
 ### Iniciativa 1
