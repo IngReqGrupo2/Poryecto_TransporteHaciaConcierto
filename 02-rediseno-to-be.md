@@ -4,8 +4,8 @@
 | Participante | Objetivo | Problema | Mejora deseada |
 |----------------|----------|----------|-----------------|
 | Cliente/Pasajero | Reservar un asiento rápido y asegurar su viaje al concierto. | Debe esperar respuesta manual para saber si queda cupo y pagar presencial el día del viaje. | Poder ver los cupos, reservar de forma autónoma y usar pago rápido en línea. |
-| Administrador | Crear viajes, llenarlos sin sobrepasar los cupos limitados y asegurar el pago. | Perdida de tiempo respondiendo mensajes cuando ya no hay cupos y anota en libretas con riesgo de error o inasistencia. | Sistema para crear el viaje (cartelera), que maneje los cupos de forma automatizada y genere planillas de pasajeros, ademas de bloquear reservas si se llena la capacidad. |
-| Asistente de viajes | Pasar lista y controlar el abordaje sin demoras ni errores. | Depende de una libreta física con borrones o listas manuales en papel. | Visualizar la lista digital de pasajeros confirmados en tiempo real desde el dispositivo móvil. |
+| Administrador | Crear viajes, llenarlos sin sobrepasar los cupos limitados. | Perdida de tiempo respondiendo mensajes cuando ya no hay cupos y anota en libretas con riesgo de error o inasistencia. | Sistema para crear el viaje (cartelera), que maneje los cupos de forma automatizada y genere planillas de pasajeros, ademas de bloquear reservas si se llena la capacidad. |
+| Asistente de viajes | Pasar lista y controlar el abordaje y realizar cobro sin demoras ni errores. | Depende de una libreta física con borrones o listas manuales en papel. | Visualizar la lista digital de pasajeros confirmados en tiempo real. |
  
 ## Iniciativas de rediseño
 ### Iniciativa 1
@@ -36,4 +36,4 @@ Nota: distingan tareas de usuario, de servicio y manuales con el marcador corres
 | Responder al cliente que ya está lleno | Notificar indisponibilidad | El sistema informa automáticamente cuando no existen cupos disponibles y bloquea nuevas reservas para el viaje. |
 | Registrar nombres en la libreta | Registrar reserva y pasajero | Los datos del pasajero y su reserva quedan registrados automáticamente en el sistema, sin necesidad de anotarlos manualmente. |
 | Realizar el pago presencial (efectivo/transferencia) | Procesar pago en línea | El pasajero realiza el pago mediante los medios disponibles en la plataforma al momento de efectuar la reserva. |
-| Pasar lista en el furgón utilizando la libreta | Visualizar lista digital de pasajeros | El administrador consulta una lista digital generada automáticamente con los pasajeros que poseen una reserva. |
+| Pasar lista en el furgón utilizando la libreta | Visualizar lista digital de pasajeros | El asistente de viaje consulta una lista digital generada automáticamente con los pasajeros que poseen una reserva. |
