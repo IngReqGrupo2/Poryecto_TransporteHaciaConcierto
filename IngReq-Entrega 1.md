@@ -8,7 +8,7 @@
  
 ## Proyecto
 
-**Sistema de Reservas de Transporte Hacia Conncietos**
+**Sistema de Reservas de Transporte Hacia Conciertos**
 
 Aplicación web orientada a la reserva de asientos en servicios de transporte.
 Permite a los pasajeros registrarse, consultar fechas disponibles y seleccionar sus asientos.

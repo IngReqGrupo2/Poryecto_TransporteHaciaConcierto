@@ -10,7 +10,8 @@ Gestionar la inscripción de los clientes a los viajes de conciertos, informando
 | Participante | Objetivo en el proceso |
 |---------------|------------------------|
 | Cliente / Pasajero | Consultar por viajes, reservar asientos de manera sencilla sin abono previo y asistir al evento. |
-| Administrador | Definir precios basados en los costos, administar los asientos en una libreta, cobrar el dia del viaje y controlar asistencia. |
+| Administrador | Definir precios basados en los costos, llevar registros de los asientos de las reservas en una libreta. |
+| Asistente de viaje | Revisar que los pasajeros en la lista esten presentes y realizar cobros respectivos. |
  
 ## Diagrama AS-IS
 ![Proceso AS-IS](./diagramas/as-is.png)

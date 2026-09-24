@@ -1,7 +1,7 @@
 # Elicitación de requisitos
  
 ## Técnica 1: Entrevista
-- Participante(s): Pamela Retamles Lopez
+- Participante(s): Pamela Retamales Lopez
 - Fecha y modalidad: 20/09/2026
 - Evidencia: [[enlace video]](https://1drv.ms/v/c/586b4ce0dcf8b8fb/IQAlzlcC1u3YQqTa3XVuIhBlAdCNP1z22WwrwGgvOpmpnWU?e=TYZDAX)
 - Hallazgos principales:

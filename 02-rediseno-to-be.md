@@ -5,6 +5,7 @@
 |----------------|----------|----------|-----------------|
 | Cliente/Pasajero | Reservar un asiento rápido y asegurar su viaje al concierto. | Debe esperar respuesta manual para saber si queda cupo y pagar presencial el día del viaje. | Poder ver los cupos, reservar de forma autónoma y usar pago rápido en línea. |
 | Administrador | Crear viajes, llenarlos sin sobrepasar los cupos limitados y asegurar el pago. | Perdida de tiempo respondiendo mensajes cuando ya no hay cupos y anota en libretas con riesgo de error o inasistencia. | Sistema para crear el viaje (cartelera), que maneje los cupos de forma automatizada y genere planillas de pasajeros, ademas de bloquear reservas si se llena la capacidad. |
+| Asistente de viajes | Pasar lista y controlar el abordaje sin demoras ni errores. | Depende de una libreta física con borrones o listas manuales en papel. | Visualizar la lista digital de pasajeros confirmados en tiempo real desde el dispositivo móvil. |
  
 ## Iniciativas de rediseño
 ### Iniciativa 1
