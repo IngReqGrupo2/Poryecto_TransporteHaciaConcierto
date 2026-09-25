@@ -1,15 +1,20 @@
 # Atributos de calidad (ISO 25010)
  
 ## Priorización de los 9 atributos de primer nivel
-1. [Atributo más importante]
-2. [Atributo]
-...
-9. [Atributo menos importante]
+1. Integridad
+2. No repudio
+3. Recuperabilidad
+4. Confidencialidad
+5. Disponibilidad
+6. Operabilidad
+7. Inclusividad
+8. Escalabilidad
+9. Modularidad
  
 ## Métricas de los 3 atributos más importantes
-### [Atributo 1]
+### Integridad
 - Métrica: [descripción de la métrica y cómo se mide]
-### [Atributo 2]
+### No repudio
 - Métrica: [descripción]
-### [Atributo 3]
+### Recuperabilidad
 - Métrica: [descripción]
