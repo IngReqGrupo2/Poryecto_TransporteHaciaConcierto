@@ -1,35 +1,37 @@
 # Clasificación de requisitos
 
+Los requisitos de producto se asocian explícitamente a actividades que cambian del proceso AS-IS al TO-BE, según la tabla definida en `02-rediseno-to-be.md`.
+
 ## Requisitos de producto
 
 | ID | Requisito | Tipo (funcional/no funcional) | Actividad TO-BE asociada |
 |----|-----------|--------------------------------|---------------------------|
-| RP-01 | El sistema debe permitir al administrador crear un viaje registrando la información necesaria para su publicación, incluyendo nombre del evento, fecha, hora de salida y regreso, conductor, asistente, vehículo y patente. | Funcional | Crear viaje en el sistema |
-| RP-02 | El sistema debe generar y mostrar una cartelera de los viajes disponibles a partir de los viajes registrados por el administrador. | Funcional | Crear viaje en el sistema |
-| RP-03 | El sistema debe permitir al cliente explorar la cartelera y seleccionar un viaje para consultar su información y disponibilidad. | Funcional | Explorar cartelera y seleccionar viaje |
-| RP-04 | El sistema debe validar automáticamente la disponibilidad de cupos de un viaje antes de permitir una reserva, respetando la capacidad máxima definida para el vehículo. | Funcional | Validar disponibilidad de cupos |
-| RP-05 | El sistema debe informar al cliente cuando un viaje no posea cupos disponibles e impedir que se realicen nuevas reservas para dicho viaje. | Funcional | Notificar indisponibilidad |
-| RP-06 | El sistema debe permitir al pasajero registrar una reserva ingresando los datos requeridos para la nómina: RUT, nombre, apellidos y teléfono de contacto. | Funcional | Registrar reserva y pasajero |
-| RP-07 | El sistema debe registrar automáticamente al pasajero y asociarlo al viaje seleccionado una vez realizada la reserva. | Funcional | Registrar reserva y pasajero |
-| RP-08 | El sistema debe permitir al pasajero realizar el pago en línea asociado a su reserva mediante los medios de pago habilitados en la plataforma. | Funcional | Procesar pago en línea |
-| RP-09 | El sistema debe registrar el estado del pago asociado a cada reserva para que la administración pueda identificar los pasajeros con pago confirmado. | Funcional | Procesar pago en línea |
-| RP-10 | El sistema debe generar una lista digital de pasajeros para cada viaje a partir de las reservas registradas. | Funcional | Visualizar lista digital de pasajeros |
-| RP-11 | El sistema debe permitir al administrador consultar la lista digital de pasajeros correspondiente a cada viaje. | Funcional | Visualizar lista digital de pasajeros |
-| RP-12 | La interfaz utilizada por los clientes debe ser compatible con dispositivos móviles, considerando que estos utilizan principalmente teléfonos al realizar las reservas. | No funcional | Explorar cartelera y seleccionar viaje / Registrar reserva y pasajero |
-| RP-13 | La vista de administración debe presentar la información de los viajes y pasajeros mediante una estructura tipo agenda, manteniendo una organización familiar para el administrador. | No funcional | Crear viaje en el sistema / Visualizar lista digital de pasajeros |
+| RP-01 | El sistema debe permitir al administrador crear y publicar un viaje registrando la información necesaria para ofrecerlo a los clientes. | Funcional | Crear viaje en el sistema |
+| RP-02 | El sistema debe permitir al cliente consultar la cartelera de viajes y seleccionar un viaje para revisar su información y disponibilidad. | Funcional | Explorar cartelera y seleccionar viaje |
+| RP-03 | El sistema debe validar automáticamente la disponibilidad de cupos antes de permitir una reserva y evitar que se supere la capacidad máxima de 17 pasajeros. | Funcional | Validar disponibilidad de cupos |
+| RP-04 | El sistema debe informar automáticamente al cliente cuando un viaje no tenga cupos disponibles y bloquear nuevas reservas para ese viaje. | Funcional | Notificar indisponibilidad |
+| RP-05 | El sistema debe permitir registrar una reserva asociando al pasajero con el viaje seleccionado y almacenando los datos requeridos para la nómina. | Funcional | Registrar reserva y pasajero |
+| RP-06 | El sistema debe permitir al pasajero realizar el pago en línea de su reserva mediante los medios de pago habilitados en la plataforma. | Funcional | Procesar pago en línea |
+| RP-07 | El sistema debe generar automáticamente una lista digital de los pasajeros que poseen una reserva para cada viaje. | Funcional | Visualizar lista digital de pasajeros |
+| RP-08 | El sistema debe permitir al asistente de viaje consultar la lista digital de pasajeros correspondiente al viaje para realizar el control de abordaje. | Funcional | Visualizar lista digital de pasajeros |
+| RP-09 | La interfaz destinada al cliente debe ser compatible con dispositivos móviles, permitiendo consultar la cartelera y seleccionar viajes desde un teléfono. | No funcional | Explorar cartelera y seleccionar viaje |
+| RP-10 | La interfaz de reserva debe ser utilizable desde dispositivos móviles, permitiendo al pasajero completar el proceso sin depender de la atención manual del administrador. | No funcional | Registrar reserva y pasajero |
+| RP-11 | La información de disponibilidad de cupos presentada al cliente debe mantenerse consistente con las reservas registradas, de manera que no se muestre como disponible un cupo que ya fue reservado. | No funcional | Validar disponibilidad de cupos |
+| RP-12 | La información de reservas y pasajeros debe mantenerse íntegra y sin duplicidades durante el registro, evitando que la automatización introduzca inconsistencias en la nómina del viaje. | No funcional | Registrar reserva y pasajero |
+| RP-13 | El procesamiento del pago en línea debe preservar la integridad del estado de la reserva, de modo que una reserva no sea identificada como pagada si el pago no ha sido confirmado. | No funcional | Procesar pago en línea |
+| RP-14 | La lista digital consultada por el asistente de viaje debe reflejar la información vigente de las reservas registradas para el viaje. | No funcional | Visualizar lista digital de pasajeros |
 
 ## Requisitos de proyecto
 
 | ID | Requisito |
 |----|-----------|
-| RY-01 | El sistema debe tener como meta de implementación enero de 2027. |
-| RY-02 | El desarrollo debe considerar como alcance inicial la cartelera de viajes a conciertos, la reserva autónoma de cupos y el registro automatizado de los pasajeros y asientos reservados. |
-| RY-03 | El desarrollo del proyecto deberá utilizar como fuente de requisitos la información obtenida mediante la entrevista al stakeholder y la revisión de la documentación operativa de la empresa. |
+| RY-01 | El proyecto deberá considerar enero de 2027 como fecha objetivo para la implementación de la solución. |
+| RY-02 | El alcance de la primera etapa del proyecto deberá contemplar la cartelera de viajes a conciertos, la reserva autónoma de cupos y el registro automatizado de pasajeros y asientos reservados. |
 
 ## Requisito derivado
 
-**Requisito origen:** RP-04 — El sistema debe validar automáticamente la disponibilidad de cupos de un viaje antes de permitir una reserva, respetando la capacidad máxima definida para el vehículo.
+**Requisito origen:** RP-03 — El sistema debe validar automáticamente la disponibilidad de cupos antes de permitir una reserva y evitar que se supere la capacidad máxima de 17 pasajeros.
 
-**Requisito derivado:** RP-D01 — Cuando una reserva sea registrada correctamente, el sistema debe descontar automáticamente los cupos correspondientes de la disponibilidad del viaje antes de permitir una nueva reserva.
+**Requisito derivado:** RP-D01 — Cada vez que una reserva sea registrada correctamente, el sistema debe actualizar automáticamente la cantidad de cupos disponibles del viaje antes de procesar una nueva solicitud de reserva.
 
-**Justificación:** Para validar correctamente la disponibilidad y evitar que un viaje supere la capacidad máxima del vehículo, el sistema necesita mantener actualizada la cantidad de cupos disponibles después de cada reserva. Este requisito se deriva de RP-04, ya que sin la actualización automática de cupos no sería posible garantizar que la validación de disponibilidad utilice información vigente.
+**Justificación:** RP-03 exige que la disponibilidad se valide automáticamente y que nunca se supere la capacidad máxima de 17 pasajeros. Para que esa validación utilice información vigente, la disponibilidad debe actualizarse después de cada reserva confirmada. Por lo tanto, RP-D01 se deriva directamente de RP-03 y permite mantener coherencia entre las reservas registradas y los cupos que el sistema presenta como disponibles.
