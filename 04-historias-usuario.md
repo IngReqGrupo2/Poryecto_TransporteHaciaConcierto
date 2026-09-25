@@ -13,7 +13,7 @@ Como **cliente/pasajero**, quiero **explorar la cartelera y seleccionar un viaje
  
 ## HU-02 - Confirmar viaje
 Como **cliente/pasajero**, quiero **reservar un cupo para el transporte** para **asistir al concierto al que quiero ir**.
-**Actividad TO-BE asociada:** Reservar cupos seleccionados y notificar
+**Actividad TO-BE asociada:** Reservar cupos seleccionados y actualizar cupos
 **Criterios de aceptación:**
 - CA1: Dado que haya encontrado un viaje de la cartelera disponible, cuando lo escoja, entonces debo poder acceder a un portal para poder pagarlo.
 - CA2: Dado que haya hecho el pago de un viaje, cuando se haya realizado la transacción, entonces debe quedar registrada en el sistema la reserva.
