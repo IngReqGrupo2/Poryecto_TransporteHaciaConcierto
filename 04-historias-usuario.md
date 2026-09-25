@@ -32,3 +32,14 @@ Como **administrador**, quiero **crear y registrar un viaje en el sistema con su
 - CA1: Dado que el administrador desea crear un viaje, cuando accede al registro de viajes, entonces el sistema permite ingresar el nombre del evento, fecha, hora de salida y regreso, conductor, asistente, modelo del vehículo y patente.
 - CA2: Dado que el administrador completa los datos requeridos del viaje, cuando confirma su creación, entonces el sistema registra el viaje.
 - CA3: Dado que el viaje fue registrado correctamente, cuando se publica, entonces el sistema lo incorpora a la cartelera para que pueda ser consultado por los clientes.
+
+## HU-04 — Visualizar pasajeros
+
+Como **asistente de viaje**, quiero **tener disponible la lista de pasajeros confirmados**, para **poder saber qué pasajeros asistieron y quiénes no**.
+
+**Actividad TO-BE asociada:** Visualizar lista digital de pasajeros.
+
+**Criterios de aceptación:**
+- CA1: Dado que el asistente de viaje está en el día del viaje, cuando acceda a la página, el sistema deberá mostrar la lista de pasajeros registrados para el viaje.
+- CA2: Dado que el asistente de viaje tiene la lista, cuando haya confirmado quiénes asistieron, entonces debe poder crearse un registro de las ausencias de la lista.
+- CA3: Dado que el asistente de viaje tiene que volver desde el concierto, cuando acceda a la lista, entonces debe poder confirmar en el sistema que estén todos los pasajeros a bordo.
